@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 #
-# Description: A Bench Script by Teddysun
-#
-# Copyright (C) 2015 - 2024 Teddysun <i@teddysun.com>
-# Thanks: LookBack <admin@dwhd.org>
-# URL: https://teddysun.com/444.html
+# Description: A Bench Script by GrayMage
+# based on script https://teddysun.com/444.html
 # https://github.com/teddysun/across/blob/master/bench.sh
+# Thanks: Teddysun <i@teddysun.com>
+# Thanks: LookBack <admin@dwhd.org>
 #
 trap _exit INT QUIT TERM
 
@@ -75,21 +74,21 @@ speed_test() {
 
 speed() {
     speed_test '' 'Speedtest.net'
-	speed_test '31126' 'S-Pb Nevalink, RU'
-	speed_test '16125' 'S-Pb Selectel, RU'
-	speed_test '22050' 'Moscow RETN, RU'
-	speed_test '10987' 'Moscow Beeline, RU'
-	speed_test '21541' 'Los Angeles, US'
-    speed_test '43860' 'Dallas, US'
-    speed_test '40879' 'Montreal, CA'
-    speed_test '61933' 'Paris, FR'
-    speed_test '28922' 'Amsterdam, NL'
-    speed_test '25858' 'Beijing, CN'
-    speed_test '24447' 'Shanghai, CN'
-    speed_test '60572' 'Guangzhou, CN'
-    speed_test '32155' 'Hong Kong, CN'
-    speed_test '13623' 'Singapore, SG'
-    speed_test '48463' 'Tokyo, JP'
+    speed_test '31126' 'S-Pb Nevalink,RU'
+    speed_test '16125' 'S-Pb Selectel,RU'
+    speed_test '22050' 'Moscow RETN,RU'
+    speed_test '10987' 'Moscow Beeline,RU'
+    speed_test '21541' 'Los Angeles,US'
+    speed_test '43860' 'Dallas,US'
+    speed_test '40879' 'Montreal,CA'
+    speed_test '61933' 'Paris,FR'
+    speed_test '28922' 'Amsterdam,NL'
+    speed_test '25858' 'Beijing,CN'
+    speed_test '24447' 'Shanghai,CN'
+    speed_test '60572' 'Guangzhou,CN'
+    speed_test '32155' 'Hong Kong,CN'
+    speed_test '13623' 'Singapore,SG'
+    speed_test '48463' 'Tokyo,JP'
 	
 }
 
