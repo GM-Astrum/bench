@@ -255,9 +255,9 @@ install_speedtest() {
 }
 
 print_intro() {
-    echo "-------------------- A Bench.sh Script By Teddysun -------------------"
-    echo " Version            : $(_green v2024-11-11)"
-    echo " Usage              : $(_red "wget -qO- bench.sh | bash")"
+    echo "-------------------- A Bench2.sh Script By GrayMage -------------------"
+    echo " Version            : $(_green v2025-01-25)"
+    echo " Usage              : $(_red "wget -qO- clck.ru/3Fx9wH | bash")"
 }
 
 # Get System information
